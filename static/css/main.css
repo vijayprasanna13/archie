@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: #4ad8ff;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:#74c4da8c;
 --darkMaincolor: #50fa7b;
 }
 html {
@@ -28,8 +28,11 @@ body{
 }
 
 p {
-  font-family: 'IBM Plex Sans', sans-serif;
-  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  font-size: larger;
+  text-align: justify;
 }
 
 hr {
@@ -129,7 +132,7 @@ pre code {
   margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 90%;
   padding: 0 1ch;
   word-wrap: break-word;
 }
