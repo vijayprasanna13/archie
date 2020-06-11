@@ -18,11 +18,11 @@
 		<div class="post-tags">
 			{{ if ne .Type "page" }}
 			{{ if gt .Params.tags 0 }}
-			<nav class="nav tags">
+			Tags: 
 				{{ range .Params.tags }}
 				<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 				{{ end }}
-			</nav>
+			
 			{{ end }}
 			{{ end }}
 		</div>
