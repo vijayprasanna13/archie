@@ -3,9 +3,25 @@
 {{- range $index, $key := .Site.Params.Social -}}
 <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
 {{- end -}} 
- <a href="https://github.com/vijayprasanna13">Github</a> | <a href="https://twitter.com/vijayprasanna13">Twitter</a>
+<a href="https://github.com/vijayprasanna13"><i data-feather="github"></i></a> |
+<a href="https://twitter.com/vijayprasanna13"><i data-feather="twitter"></i></a> |
+<a href="mailto:vijayprasanna2896@gmail.com"><i data-feather="mail"></i></a>
 </footer>
 
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+      feather.replace()
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169029820-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169029820-2');
+</script>
 <script>
       feather.replace()
 </script>
